@@ -1,0 +1,26 @@
+.customInput {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  .ant-input:focus,
+  .ant-input-focused {
+    border-color: transparent !important;
+    box-shadow: none;
+    border-right-width: 0px;
+    outline: none;
+    border: none !important;
+  }
+  .ant-input {
+    background: transparent !important;
+    border: none !important;
+    color: #fff !important;
+    :hover {
+      border: none !important;
+    }
+  }
+  .ant-input:focus,
+  .ant-input-focused {
+    border: none !important;
+  }
+}
